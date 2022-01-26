@@ -4,6 +4,7 @@ import axios from "axios";
 export default function Heardphones() {
   const [isLoading, setIsLoading] = useState(false);
   const [finalArr, setFinalArr] = useState([]);
+  
   useEffect(() => {
     const fetchData = async () => {
       try {
